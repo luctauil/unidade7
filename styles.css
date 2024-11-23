@@ -1,0 +1,13 @@
+.card:hover {
+    transition: 0.3s;
+    transform: scale(1.03);
+    box-shadow: 2px 2px 10px rgba(0, 0, 0, 0.5);
+}
+
+.lk-voltar{
+    color: gray;
+    
+}
+.lk-voltar:hover {
+    color: darkgray;
+}

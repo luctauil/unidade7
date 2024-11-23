@@ -1,0 +1,141 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="styles.css">
+    <title>Aula Git e Github</title>
+
+    <!-- Bootstrap CSS -->
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.1.3/css/bootstrap.min.css" integrity="sha384-MCw98/SFnGE8fJT3GXwEOngsV7Zt27NXFoaoApmYm81iuXoPkFOJwJ8ERdknLPMO" crossorigin="anonymous">
+</head>
+<body>
+    <div class="container mt-5">
+        <h1 class="text-left mb-4">GitHub</h1>
+        
+        <span class="text-left mb-4"><a href="index.html" class="lk-voltar"><< Voltar</a></span>
+
+        <div class="row mt-4">
+            <!-- Card 1 -->
+            <div class="col-md-6 mb-4">
+                <div class="card">
+                    <img src="imagens/index_git1.jpg" class="card-img-top" alt="Card Image 1">
+                    <div class="card-body">
+                        <h5 class="card-title">GitHub</h5>
+                        <p class="card-text">
+                            É uma espécie de "rede social" de programadores. Com esta plataforma, podemos subir os nossos projetos e deixar que outras pessoas colaborem (ou não).
+                        </p>
+                        <p class="card-text">
+                            <strong style="font-size: large;">Importante:</strong> Para perfeita integração entre seu computador e o GitHub, crie sua conta com o mesmo e-mail configurado nas configurações globais do seu Git.
+                        </p>
+                        <a href="https://github.com/" target="_blank" class="btn btn-primary">Crie sua conta!</a>
+                    </div>
+                </div>
+            </div>
+            <!-- Card 2 -->
+            <div class="col-md-6 mb-4">
+                <div class="card">
+                    <img src="imagens/github.png" class="card-img-top" alt="Card Image 2">
+                    <div class="card-body">
+                        <h5 class="card-title">Repositório</h5>
+                        <p class="card-text">Lugar centralizado onde você pode armazenar seu código, seus arquivos e o histórico de revisão de cada arquivo. É a <strong>pasta do seu projeto</strong>.</p>
+                        <p class="card-text">Você consegue definir um repositório como <strong>público</strong> ou <strong>privado</strong>.</p>
+                        <p class="card-text"><strong>Obs:</strong> É necessário seguir as regrinhas de arquivos: não ter acento, não ter espaço, não é indicado utilizar letras maiúsculas, para separar palavras use tracinhos ou underline.</p>
+                    </div>
+                </div>
+            </div>
+            
+            <div class="col-md-6 mb-4">
+                <div class="card">
+                    <img src="imagens/github1.jpg" class="card-img-top" alt="Card Image 2">
+                    <div class="card-body">
+                        <h5 class="card-title">GitHub e seus repositórios na nuvem</h5>
+                        <p class="card-text">Após criar sua conta no GitHub, para criar repositórios é só clicar em <strong>"New"</strong>.</p>
+                        <p class="card-text">O GitHub permite guardar seus projetos na nuvem e isso traz vantagens como:
+                            <ul>
+                                <li>Possibilidade de compartilhar projetos</li>
+                                <li>Possibilidade de trabalhar em equipe no mesmo projeto</li>
+                                <li>Projeto salvo na nuvem gratuitamente</li>
+                            </ul>
+                        </p>
+                    </div>
+                </div>
+            </div>
+            <div class="col-md-6 mb-4">
+                <div class="card">
+                    <img src="imagens/github2.jpg" class="card-img-top" alt="Card Image 2">
+                    <div class="card-body">
+                        <h5 class="card-title">New Repository</h5>
+                        <p class="card-text">Ao criar um novo repositório você precisa definir o nome do seu repositório e se ele será <strong>público</strong> ou <strong>privado</strong>.
+                            <ul>
+                                <li>Repositório público: Qualquer pessoa pode baixar e utilizar seu projeto.</li>
+                                <li>Repositório privado: Você define quem pode visualizar, baixar e até mesmo alterar seu repositório.</li>
+                            </ul>
+                        </p>
+                    </div>
+                </div>
+            </div>
+            <div class="col-md-6 mb-4">
+                <div class="card">
+                    <img src="imagens/github3.jpg" class="card-img-top" alt="Card Image 2">
+                    <div class="card-body">
+                        <h5 class="card-title">Associar o projeto local com o repositório da nuvem</h5>
+                        <p class="card-text">
+                            Depois de criar seu novo repositório você verá as informações do seu repositório vazio na nuvem. Nele tem as orientações com os comandos para que você associe a pasta do seu projeto local (projeto do seu computador) ao diretório na nuvem.
+                        </p>
+                    </div>
+                </div>
+            </div>
+
+        </div>
+
+        <hr />
+
+        <h1 class="text-left mb-4">Usando branchs</h1>
+
+
+        <div class="row mt-4">
+            <div class="col-md-6 mb-4">
+                <div class="card">
+                    <img src="imagens/index_git1.jpg" class="card-img-top" alt="Card Image 1">
+                    <div class="card-body">
+                        <h5 class="card-title">Branch</h5>
+                        <p class="card-text">
+                            Branch é uma ramificação de um repositório que permite desenvolver recursos, corrigir bugs e experimentar novas ideias de forma isolada. A palavra branch significa "ramo". Permite que vc crie ramificações no seu projeto e depois integre eles com o projeto principal.
+                        </p>
+                    </div>
+                </div>
+            </div>
+
+            <div class="col-md-6 mb-4">
+                <div class="card">
+                    <img src="imagens/github4.jpg" class="card-img-top" alt="Card Image 1">
+                    <div class="card-body">
+                        <h5 class="card-title">Como trabalhar com branchs</h5>
+                        <p class="card-text">
+                            <strong>Comandos:</strong>
+                            <ul>
+                                <li><strong>git checkout -b nome-da-branch</strong> cria uma nova branch no seu projeto. Tudo que for feito nesta branch não impacta na main</li>
+                                <li><strong>git add .</strong> e <strong>git commit -m "descricao"</strong> faz commit das alterações neste novo branch.</li>
+                                <li><strong>git push -u origin nome-da-branch</strong> envia a branch para o repositorio remoto.</li>
+                                <li><strong>git checkout nome-da-outra-branch</strong> altera para qualquer outra branch</li>
+                                <li><strong>git merge nome-da-branch</strong> mescla a ramificação feita com a branch. Geralmente é feito na main.</li>
+                                <li>Resolva conflitos se necessário.</li>
+                            </ul>
+                        </p>
+                    </div>
+                </div>
+            </div>
+
+        </div>
+
+
+
+    <span class="text-left mb-4"><a href="index.html" class="lk-voltar"><< Voltar</a></span>
+
+    <hr />
+
+
+
+</body>
+</html>

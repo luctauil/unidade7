@@ -1,0 +1,249 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="styles.css">
+    <title>Aula Git e Github</title>
+
+    <!-- Bootstrap CSS -->
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.1.3/css/bootstrap.min.css" integrity="sha384-MCw98/SFnGE8fJT3GXwEOngsV7Zt27NXFoaoApmYm81iuXoPkFOJwJ8ERdknLPMO" crossorigin="anonymous">
+</head>
+<body>
+    <div class="container mt-5">
+        <h1 class="text-left mb-4">Git</h1>
+        
+        <span class="text-left mb-4"><a href="index.html" class="lk-voltar"><< Voltar</a></span>
+
+        <div class="row mt-4">
+            <!-- Card 1 -->
+            <div class="col-md-6 mb-4">
+                <div class="card">
+                    <img src="imagens/git0.jpg" class="card-img-top" alt="Card Image 1">
+                    <div class="card-body">
+                        <h5 class="card-title">Git X GitHub</h5>
+                        <p class="card-text">
+                            São coisas distintas.
+                            <ul>
+                                <li><strong>Git:</strong> Sistema de controle de versões mais popular entre os desenvolvedores.</li>
+                                <li><strong>GitHub:</strong> Serviço de hospedagem de repositório de software.</li>
+                            </ul>
+                        </p>
+                    </div>
+                </div>
+            </div>
+            <!-- Card 2 -->
+            <div class="col-md-6 mb-4">
+                <div class="card">
+                    <img src="imagens/git1.jpg" class="card-img-top" alt="Card Image 2">
+                    <div class="card-body">
+                        <h5 class="card-title">Git</h5>
+                        <p class="card-text">Software para versionamento de códigos.</p>
+                        <a href="https://git-scm.com/book/es/v1/" target="_blank" class="btn btn-primary">Documentação</a>
+                    </div>
+                </div>
+            </div>
+            <!-- Card 3 -->
+            <div class="col-md-6 mb-4">
+                <div class="card">
+                    <img src="imagens/git2.jpg" class="card-img-top" alt="Card Image 3">
+                    <div class="card-body">
+                        <h5 class="card-title">Permite navegar entre versões</h5>
+                        <p class="card-text">Útil para navegar entre as versões, localizar erros e melhorar a organização.</p>
+                    </div>
+                </div>
+            </div>
+            <!-- Card 4 -->
+            <div class="col-md-6 mb-4">
+                <div class="card">
+                    <img src="imagens/git3.jpg" class="card-img-top" alt="Card Image 4">
+                    <div class="card-body">
+                        <h5 class="card-title">Possui 3 estágios fundamentais.</h5>
+                        <p class="card-text">
+                            <ul>
+                                <li><strong>1º estágio - Working directory:</strong> Onde trabalhamos no código.</li>
+                                <li><strong>2º estágio - Staging area:</strong> Adicionamos os itens (códigos) prontos. Área de "pré-confirmação".</li>
+                                <li><strong>3º estágio - Repositório:</strong> Lote pronto. Tudo ok. Oficializar a versão e guardamos.</li>
+                            </ul>
+                        </p>
+                    </div>
+                </div>
+            </div>
+            <!-- Card 5 -->
+            <div class="col-md-6 mb-4">
+                <div class="card">
+                    <img src="imagens/git3.jpg" class="card-img-top" alt="Card Image 4">
+                    <div class="card-body">
+                        <h5 class="card-title">Como usar?</h5>
+                        <p class="card-text">
+                            Para usar o git precisamos instalar seu software disponível no link do botão.
+                        </p>
+                        <a href="https://git-scm.com/" target="_blank" class="btn btn-primary">Download aqui</a>
+                    </div>
+                </div>
+            </div>
+            <!-- Card 6 -->
+            <div class="col-md-6 mb-4">
+                <div class="card">
+                    <img src="imagens/git4.jpg" class="card-img-top" alt="Card Image 4">
+                    <div class="card-body">
+                        <h5 class="card-title">Preciso configurar?</h5>
+                        <p class="card-text">
+                            <strong>Sim!</strong> São duas configurações simples e globais (servirão para todos os projetos) feitas no terminal. Como usar o terminal:
+                            <ul>
+                                <li><strong>Opção 1:</strong> 
+                                    <ul>
+                                        <li><strong>Windows:</strong> basta ir para Início > Executar ou Pesquisar > CMD.exe, e o nosso terminal se abrirá</li>
+                                        <li><strong>Mac OS:</strong> ícone "Finder" situado no Dock, depois selecione "Aplicativos > Utilidades" e, finalmente, dê um duplo clique no ícone "Terminal".</li>
+                                    </ul>
+                                </li>
+                                <li><strong>Opção 2:</strong> Diretamente no terminal do VS Code em Menu Principal -> Terminal -> New Terminal.</li>
+                            </ul>
+                        </p>
+                    </div>
+                </div>
+            </div>
+             <!-- Card 7 -->
+             <div class="col-md-6 mb-4">
+                <div class="card">
+                    <img src="imagens/git5.jpg" class="card-img-top" alt="Card Image 4">
+                    <div class="card-body">
+                        <h5 class="card-title">Comandos</h5>
+                        <p class="card-text">
+                            <strong>Para configurar utilize:</strong><br />
+                            git config --global user.name  "Seu nome aqui!"<br />
+                            git config --global user.email seu.email@aqui.com
+                        </p>
+                        <p class="card-text">
+                            <strong>Visualisar a configuração atual:</strong><br />
+                            git config user.name <br />
+                            git config user.email
+                        </p>
+                    </div>
+                </div>
+            </div>
+            <!-- Card 8 -->
+            <div class="col-md-6 mb-4">
+                <div class="card">
+                    <img src="imagens/git5.jpg" class="card-img-top" alt="Card Image 4">
+                    <div class="card-body">
+                        <h5 class="card-title">Versão do seu software</h5>
+                        <p class="card-text">
+                            <strong>Para visualizar a versão do seu git:</strong><br />
+                            git version
+                        </p>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+        <hr />
+
+    </div>
+
+    <div class="container mt-5">
+
+        <h2>Tudo configurado! Como começo a usar essa ferramenta maravilhosa?</h2>
+        <h4>A partir daqui, os comandos são individuais para seus projetos.</h4>
+
+        <div class="row">
+            <div class="col-md-6 mb-4">
+                <div class="card">
+                    <div class="card-body">
+                        <h5 class="card-title">git init</h5>
+                        <p class="card-text">
+                            Vá até a pasta do seu projeto e e dentro dela utilize o <strong>git init</strong>. A partir desse momento o git sabe que tem que cuidar daquela pasta. Você já pode adicionar e remover arquivos e códigos. Trabalhe normalmente no seu projeto. Neste momento, você está trabalhando no estágio 1 - Working directory.
+                        </p>
+                    </div>
+                </div>
+            </div>
+
+            <div class="col-md-6 mb-4">
+                <div class="card">
+                    <img src="imagens/git6.jpg" class="card-img-top" alt="Card Image 2">
+
+                    <div class="card-body">
+                        <h5 class="card-title">git status</h5>
+                        <p class="card-text">
+                            Sempre que quiser verificar as modificações feitas no seu projeto, utilize o <strong>git status</strong>. Esse comando pode ser usado a qualquer momento. Utilize sempre que quiser se localizar. Nesta imagem por exemplo, ele informa que o index.html foi alterado.
+                        </p>
+                    </div>
+                </div>
+            </div>
+
+            <div class="col-md-6 mb-4">
+                <div class="card">
+                    <img src="imagens/git7.jpg" class="card-img-top" alt="Card Image 2">
+
+                    <div class="card-body">
+                        <h5 class="card-title">git add .</h5>
+                        <p class="card-text">
+                            O comando <strong>git add nome_arquivo.html</strong> envia o arquivo para o estágio 2. Quando você já terminou alguma etapa ou item da sua nova versão e já pode pré-confirmar esse arquivo. Quando a alteração envolver vários arquivos você pode usar o comando <strong>git add .</strong> e todos os arquivos pendentes serão pré confirmados. Depois que confirmar, utilize o <strong>git status</strong> novamente para ver seus arquivos confirmados.
+                        </p>
+                    </div>
+                </div>
+            </div>
+
+            <div class="col-md-6 mb-4">
+                <div class="card">
+                    <img src="imagens/git8.jpg" class="card-img-top" alt="Card Image 2">
+
+                    <div class="card-body">
+                        <h5 class="card-title">git commit</h5>
+                        <p class="card-text">
+                            git commit -m "Primeira versão da minha plataforma"
+                        </p>
+                        <p class="card-text">
+                            Depois que a versão do seu projeto estiver totalmente feita, com tudo testado e pronto para oficializar você terá uma versão pronta. É hora de guardar essa versão. O comando <strong>git add commit</strong> para o último estágio e guarda esta versão no seu repositório.
+                            Esse comando enviará para o repositório todos os arquivos que forma pré-confirmados.
+                        </p>
+                    </div>
+                </div>
+            </div>
+
+            <hr />
+
+        </div>
+        
+        <hr />
+
+        <div class="container mt-5">
+
+            <h2>Comandos interessantes</h2>
+            <div class="row">
+                <div class="col-md-6 mb-4">
+                    <div class="card">
+                        <img src="imagens/git9.jpg" class="card-img-top" alt="Card Image 2">
+                        <div class="card-body">
+                            <h5 class="card-title">git log</h5>
+                            <p class="card-text">
+                                Comando que permite ver os logs (histórico) do que aconteceu no repositório. Esse comando exibe todos os commits que foram feitos (por quem e quando foram feitos).
+                            </p>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="col-md-6 mb-4">
+                    <div class="card">
+                        <img src="imagens/git6.jpg" class="card-img-top" alt="Card Image 2">
+                        <div class="card-body">
+                            <h5 class="card-title">git log --oneline</h5>
+                            <p class="card-text">
+                                Outra forma de exibir logs. Mostra os commits realizados de forma simplificada.
+                            </p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+        <span class="text-left mb-4"><a href="index.html" class="lk-voltar"><< Voltar</a></span>
+        <hr />
+
+    </div>
+
+
+
+
+
+</body>
+</html>
